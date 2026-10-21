@@ -1,0 +1,287 @@
+{
+  "version": "2.0",
+  "description": "YZM714 - Sağlık Alanı YZ Etik ve Hukuki Kural Motoru (v2 - Güvenlik boyutu eklendi, puanlı skor desteği)",
+  "dimensions": [
+    {
+      "id": "adalet",
+      "label": "Adalet ve Önyargı",
+      "keywords": [
+        "önyargı",
+        "ayrımcılık",
+        "eşitsizlik",
+        "demografik",
+        "bias",
+        "fairness",
+        "cinsiyet",
+        "ırk",
+        "yaş",
+        "temsil",
+        "bağımsızlık",
+        "ayrışma",
+        "yeterlilik"
+      ],
+      "embedding_concepts": [
+        "algorithmic fairness",
+        "demographic bias",
+        "equal treatment",
+        "discrimination"
+      ],
+      "agirlik": 20,
+      "kontrol_soruları": [
+        "Sistem farklı demografik gruplar için eşit performans sunuyor mu?",
+        "Eğitim verisi yeterince çeşitli ve temsili mi?",
+        "Bağımsızlık, Ayrışma ve Yeterlilik metrikleri değerlendirildi mi?"
+      ],
+      "ilgili_maddeler": [
+        "AB YZ Yasası Madde 10 (Veri kalitesi)",
+        "KVKK Madde 6 (Özel nitelikli veri)"
+      ]
+    },
+    {
+      "id": "seffaflik",
+      "label": "Şeffaflık ve Açıklanabilirlik",
+      "keywords": [
+        "şeffaflık",
+        "açıklanabilir",
+        "kara kutu",
+        "XAI",
+        "SHAP",
+        "LIME",
+        "yorumlanabilir",
+        "explainability",
+        "açıklama",
+        "gerekçe"
+      ],
+      "embedding_concepts": [
+        "explainability",
+        "black box",
+        "interpretability",
+        "transparency"
+      ],
+      "agirlik": 15,
+      "kontrol_soruları": [
+        "Karar süreci kullanıcıya anlaşılır biçimde açıklanabiliyor mu?",
+        "Kara kutu modeller yüksek riskli kararlarda kullanılıyor mu?",
+        "XAI araçları doğrulanmış ve güvenilir mi?"
+      ],
+      "ilgili_maddeler": [
+        "AB YZ Yasası Madde 13 (Şeffaflık)",
+        "AB YZ Yasası Madde 14 (İnsan gözetimi)"
+      ]
+    },
+    {
+      "id": "hesap_verebilirlik",
+      "label": "Hesap Verebilirlik",
+      "keywords": [
+        "sorumluluk",
+        "hesap verebilirlik",
+        "malpraktis",
+        "geliştirici",
+        "dağıtıcı",
+        "kullanıcı",
+        "zarar",
+        "liability",
+        "denetim",
+        "audit"
+      ],
+      "embedding_concepts": [
+        "accountability",
+        "liability",
+        "responsibility chain",
+        "audit trail"
+      ],
+      "agirlik": 15,
+      "kontrol_soruları": [
+        "Zarardan kimin sorumlu olduğu açıkça tanımlanmış mı?",
+        "Denetim izi (audit trail) tutuluyor mu?",
+        "Sorumluluk zinciri: geliştirici → hastane → klinisyen tanımlı mı?"
+      ],
+      "ilgili_maddeler": [
+        "AB YZ Yasası Madde 16 (Sağlayıcı yükümlülükleri)",
+        "KVKK Madde 12 (Veri güvenliği)"
+      ]
+    },
+    {
+      "id": "mahremiyet",
+      "label": "Mahremiyet ve Veri Koruma",
+      "keywords": [
+        "mahremiyet",
+        "gizlilik",
+        "KVKK",
+        "GDPR",
+        "hasta verisi",
+        "anonimleştirme",
+        "rıza",
+        "kişisel veri",
+        "veri koruma",
+        "gizli"
+      ],
+      "embedding_concepts": [
+        "privacy",
+        "data protection",
+        "consent",
+        "anonymization",
+        "GDPR"
+      ],
+      "agirlik": 20,
+      "kontrol_soruları": [
+        "Hasta verileri işlenirken açık rıza alındı mı?",
+        "Veri minimizasyonu ilkesi uygulanıyor mu?",
+        "Anonimleştirme yeniden tanımlamaya karşı dayanıklı mı?",
+        "KVKK/GDPR uyumluluğu sağlandı mı?"
+      ],
+      "ilgili_maddeler": [
+        "GDPR Madde 9 (Özel kategori veri)",
+        "KVKK Madde 6",
+        "AB YZ Yasası Madde 10"
+      ]
+    },
+    {
+      "id": "insan_denetimi",
+      "label": "İnsan Denetimi",
+      "keywords": [
+        "insan denetimi",
+        "human-in-the-loop",
+        "human-on-the-loop",
+        "otonom",
+        "nihai karar",
+        "gözetim",
+        "onay",
+        "müdahale",
+        "override"
+      ],
+      "embedding_concepts": [
+        "human oversight",
+        "human in the loop",
+        "autonomous decision",
+        "human control"
+      ],
+      "agirlik": 15,
+      "kontrol_soruları": [
+        "Sistemde anlamlı insan denetimi var mı?",
+        "Klinisyen sistemi geçersiz kılabiliyor mu?",
+        "Human-in-the-loop mu, human-on-the-loop mu, human-out-of-the-loop mu?"
+      ],
+      "ilgili_maddeler": [
+        "AB YZ Yasası Madde 14 (İnsan gözetimi)",
+        "WHO LMM Rehberi 2024"
+      ]
+    },
+    {
+      "id": "hukuki_uyum",
+      "label": "Hukuki Uyumluluk",
+      "keywords": [
+        "yüksek riskli",
+        "uyumluluk",
+        "düzenleme",
+        "yaptırım",
+        "onay",
+        "sertifikasyon",
+        "MDR",
+        "FDA",
+        "mevzuat",
+        "yasal"
+      ],
+      "embedding_concepts": [
+        "regulatory compliance",
+        "high risk AI",
+        "certification",
+        "legal requirement"
+      ],
+      "agirlik": 10,
+      "kontrol_soruları": [
+        "Sistem AB YZ Yasası kapsamında hangi risk kategorisinde?",
+        "MDR/FDA onayı gerekli mi, alındı mı?",
+        "ISO/IEC 42001 gereklilikleri karşılanıyor mu?",
+        "Türkiye'de ek düzenleyici gereklilik var mı?"
+      ],
+      "ilgili_maddeler": [
+        "AB YZ Yasası Ek III (Yüksek riskli liste)",
+        "ISO/IEC 42001:2023",
+        "EU MDR 2017/745"
+      ]
+    },
+    {
+      "id": "guvenlik",
+      "label": "Güvenlik",
+      "keywords": [
+        "güvenlik",
+        "siber",
+        "saldırı",
+        "açık",
+        "zafiyet",
+        "dayanıklılık",
+        "arıza",
+        "fail-safe",
+        "adversarial",
+        "robust",
+        "güvenli"
+      ],
+      "embedding_concepts": [
+        "cybersecurity",
+        "adversarial robustness",
+        "fail-safe",
+        "system security",
+        "vulnerability"
+      ],
+      "agirlik": 15,
+      "kontrol_soruları": [
+        "Sistem adversarial saldırılara karşı dayanıklı mı?",
+        "Arıza durumunda güvenli varsayılan davranış (fail-safe) tanımlı mı?",
+        "Siber güvenlik gereksinimleri karşılanıyor mu?",
+        "Model manipülasyonuna karşı önlem alınmış mı?"
+      ],
+      "ilgili_maddeler": [
+        "AB YZ Yasası Madde 15 (Doğruluk ve siber güvenlik)",
+        "ISO/IEC 42001:2023 Madde 6.1"
+      ]
+    }
+  ],
+  "use_case_profilleri": {
+    "UC1": {
+      "id": "UC1",
+      "baslik": "Hastane Eczane Stok Yönetimi YZ",
+      "risk_seviyesi": "YÜKSEK",
+      "ab_yz_yasasi_kategori": "Yüksek Riskli (Ek III)",
+      "kritik_boyutlar": [
+        "adalet",
+        "seffaflik",
+        "hesap_verebilirlik",
+        "mahremiyet",
+        "insan_denetimi",
+        "hukuki_uyum",
+        "guvenlik"
+      ]
+    },
+    "UC2": {
+      "id": "UC2",
+      "baslik": "Klinik Karar Destek / Radyoloji Tanı",
+      "risk_seviyesi": "YÜKSEK",
+      "ab_yz_yasasi_kategori": "Yüksek Riskli (Ek III) + MDR",
+      "kritik_boyutlar": [
+        "adalet",
+        "seffaflik",
+        "hesap_verebilirlik",
+        "mahremiyet",
+        "insan_denetimi",
+        "hukuki_uyum",
+        "guvenlik"
+      ]
+    },
+    "UC3": {
+      "id": "UC3",
+      "baslik": "Çok Merkezli Sağlık Verisiyle YZ Model Eğitimi",
+      "risk_seviyesi": "YÜKSEK",
+      "ab_yz_yasasi_kategori": "Yüksek Riskli (Ek III)",
+      "kritik_boyutlar": [
+        "adalet",
+        "seffaflik",
+        "hesap_verebilirlik",
+        "mahremiyet",
+        "insan_denetimi",
+        "hukuki_uyum",
+        "guvenlik"
+      ]
+    }
+  }
+}

@@ -1,0 +1,173 @@
+## BELGE 1: AB YZ YASASI (AI Act) - Sağlık Alanı İlgili Maddeler
+KAYNAK: European Commission (2024). Artificial Intelligence Act (Regulation EU 2024/1689)
+KATEGORİ: Düzenleyici Belge | KAPSAM: Yüksek Riskli YZ, Sağlık
+
+### Risk Sınıflandırması (Madde 6 ve Ek III)
+AB YZ Yasası risk temelli bir yaklaşım benimsemektedir. Sağlık alanındaki YZ sistemleri Ek III kapsamında yüksek riskli olarak sınıflandırılmaktadır. Yüksek riskli kategoriye giren sağlık YZ sistemleri şunlardır: tıbbi cihaz yazılımı olarak kullanılan YZ sistemleri (EU MDR kapsamında), klinik karar destek sistemleri, hasta triaj sistemleri, ilaç yönetim sistemleri.
+
+### Madde 10 - Veri ve Veri Yönetişimi
+Yüksek riskli YZ sistemlerinde kullanılan eğitim, doğrulama ve test veri kümeleri; ilgili tasarım seçeneklerine uygun olmalı, toplandıkları belirli coğrafi, davranışsal veya işlevsel ortamı yansıtmalıdır. Veri kümeleri önyargı açısından taranmalı, demografik temsiliyet gözetilmelidir.
+
+### Madde 13 - Şeffaflık ve Bilgi Sağlama Yükümlülüğü
+Yüksek riskli YZ sistemleri şeffaf biçimde tasarlanmalı ve kullanılmalıdır. Sistem, amacı, yetkinlikleri ve sınırlılıkları hakkında yeterli bilgi sağlamalıdır. Klinisyenler sistemin çıktısını doğru yorumlayabilmeli ve geçersiz kılabilmelidir.
+
+### Madde 14 - İnsan Gözetimi
+Yüksek riskli YZ sistemleri, kullanım süresince insan tarafından etkin biçimde gözetlenebilmelidir. Human-in-the-loop mekanizması: nihai karar yetkisi insan kullanıcıda kalmalıdır. Sağlık alanında "nihai karar doktorda" ilkesi yasal zorunluluktur.
+
+### Madde 16 - Sağlayıcı Yükümlülükleri
+Sağlayıcılar kalite yönetim sistemi oluşturmalı, teknik dokümantasyon hazırlamalı, AB uygunluk beyanı düzenlemeli ve uygunluk değerlendirmesi gerçekleştirmelidir.
+
+### Yaptırım
+İhlaller için GSYH'nin %3'üne kadar idari para cezası öngörülmektedir. Yüksek riskli sistem yükümlülüklerinin ihlali en ağır yaptırım kategorisindedir.
+
+---
+
+## BELGE 2: KVKK - Yapay Zekâ Alanında Kişisel Verilerin Korunması
+KAYNAK: Kişisel Verileri Koruma Kurumu (2021). Yapay Zekâ Alanında Kişisel Verilerin Korunmasına Yönelik Tavsiyeler.
+URL: https://www.kvkk.gov.tr/SharedFolderServer/CMSFiles/25a1162f-0e61-4a43-98d0-3e7d057ac31a.pdf
+KATEGORİ: Düzenleyici Belge | KAPSAM: Türkiye, Veri Koruma, YZ
+
+### Temel İlkeler
+KVKK kapsamında YZ sistemleri kişisel veri işleme faaliyeti gerçekleştirdiğinde 6698 sayılı Kanun hükümleri uygulanır. Sağlık verisi özel nitelikli kişisel veri kapsamındadır (Madde 6). Özel nitelikli kişisel verilerin YZ sistemlerince işlenmesi açık rıza gerektirir.
+
+### Madde 6 - Özel Nitelikli Kişisel Veriler
+Kişilerin ırkı, etnik kökeni, siyasi düşüncesi, felsefi inancı, dini, mezhebi veya diğer inançları, kılık ve kıyafeti, dernek, vakıf ya da sendika üyeliği, sağlığı, cinsel hayatı, ceza mahkûmiyeti ve güvenlik tedbirleriyle ilgili verileri ile biyometrik ve genetik verileri özel nitelikli kişisel veridir. Sağlık verileri YZ modeli eğitiminde kullanılmadan önce açık rıza alınmalıdır.
+
+### Veri Minimizasyonu İlkesi
+YZ sistemlerinde işlenen kişisel veri, amacın gerektirdiğiyle sınırlı tutulmalıdır. Gereksiz veri toplanmamalı, anonimleştirme mümkün olan her durumda uygulanmalıdır.
+
+### Anonimleştirme ve Yeniden Tanımlama Riski
+Sağlık verilerinin anonimleştirilmesi, yeniden tanımlama riskini ortadan kaldırmayı gerektirmektedir. Büyük veri ortamlarında tek başına yeterli olmayan anonimleştirme teknikleri yetersiz kabul edilebilir. Diferansiyel gizlilik ve federated learning gibi teknikler tercih edilmelidir.
+
+### Türkiye'nin Mevcut Boşlukları
+KVKK'nın YZ'ye özgü bağlayıcı düzenlemeleri bulunmamaktadır. AB YZ Yasası'ndaki yüksek riskli sistem tanımı ve uygunluk değerlendirmesi süreçlerine eşdeğer bir mekanizma Türkiye'de henüz oluşturulmamıştır.
+
+---
+
+## BELGE 3: WHO - Büyük Çok Modlu Modeller Etik Rehberi (2024)
+KAYNAK: World Health Organization (2024). Ethics and governance of artificial intelligence for health: Guidance on large multi-modal models.
+URL: https://iris.who.int/handle/10665/375548
+KATEGORİ: Politika Raporu | KAPSAM: Küresel, Sağlık YZ Etiği
+
+### 40+ Temel Öneri - Özet
+WHO, sağlık alanındaki büyük çok modlu modeller (LMM) için hükümetlere, teknoloji şirketlerine ve sağlık hizmet sağlayıcılarına yönelik 40'tan fazla öneri sunmaktadır.
+
+### Hükümetlere Öneriler
+Ulusal YZ stratejileri sağlık sektörünü kapsamalıdır. Düzenleyici çerçeveler LMM'lerin özelliklerine uyarlanmalıdır. Bağımsız denetim mekanizmaları oluşturulmalıdır.
+
+### Şeffaflık Gereklilikleri
+LMM geliştiricileri eğitim verisi, model mimarisi ve sınırlılıkları hakkında şeffaf olmalıdır. Sağlık profesyonelleri YZ çıktılarını yorumlayabilmeli ve gerektiğinde reddetmelidir.
+
+### İnsan Denetimi
+Klinik kararlarda YZ, yardımcı araç olarak konumlandırılmalıdır. Tamamen otonom tıbbi karar sistemleri mevcut düzenlemeler altında kabul görmemektedir. Doktorun nihai karar yetkisi korunmalıdır.
+
+### Çevresel Etki
+Büyük YZ modellerinin eğitimi önemli enerji tüketimine yol açmaktadır. Sürdürülebilir YZ geliştirme pratikleri benimsenmelidir.
+
+### Adalet ve Erişim Eşitliği
+YZ sağlık uygulamaları mevcut sağlık eşitsizliklerini derinleştirmemeli, aksine azaltmaya katkıda bulunmalıdır. Düşük ve orta gelirli ülkelerde YZ uygulamalarına adil erişim sağlanmalıdır.
+
+---
+
+## BELGE 4: ISO/IEC 42001:2023 - YZ Yönetim Sistemi
+KAYNAK: ISO/IEC (2023). Information technology — Artificial intelligence — Management system (ISO/IEC 42001:2023)
+KATEGORİ: Teknik Standart | KAPSAM: YZ Yönetişimi, Risk Yönetimi
+
+### Kapsam ve Amaç
+ISO/IEC 42001, kuruluşların yapay zekâ yönetim sistemi (AYMS) kurması, uygulaması, sürdürmesi ve sürekli iyileştirmesi için gereksinimler sağlamaktadır. Sağlık alanındaki YZ sistemlerine doğrudan uygulanabilir.
+
+### Risk Değerlendirme Süreci
+YZ sistemleri için risk değerlendirmesi şu aşamaları kapsamalıdır: YZ sisteminin amaçlanan kullanımının belirlenmesi, potansiyel olumsuz etkilerin tanımlanması, risk düzeyinin değerlendirilmesi ve risk kontrollerinin uygulanması.
+
+### Şeffaflık ve Açıklanabilirlik Gereksinimleri
+Kuruluşlar YZ sistemlerinin karar alma süreçleri hakkında paydaşlara uygun düzeyde açıklama sağlamalıdır. Sağlık YZ sistemlerinde bu gereksinim kritik önem taşımaktadır.
+
+### İnsan Gözetimi
+Yüksek etkili YZ kararları için insan gözetimi mekanizmaları oluşturulmalıdır. Otomatik kararların gözden geçirilmesi ve gerektiğinde müdahale edilebilmesi sağlanmalıdır.
+
+### Denetim ve İzlenebilirlik
+YZ sistemlerinin çıktıları izlenebilir ve denetlenebilir olmalıdır. Karar günlükleri (audit log) saklanmalı ve yetkili taraflarca erişilebilir olmalıdır.
+
+---
+
+## BELGE 5: Algoritmik Adalet - Sağlık Alanı Literatürü Özeti
+KAYNAK: Chen vd. (2023), Nature Biomedical Engineering; Mitchell vd. (2021), Annual Review of Statistics
+KATEGORİ: Akademik | KAPSAM: Adalet Metrikleri, Sağlık YZ
+
+### Temel Adalet Metrikleri
+Bağımsızlık (Independence/Demographic Parity): YZ çıktısının korunan özelliklerden bağımsız olması. Örnek: Hastane eczane sisteminin ilaç tahminleri demografik gruba göre farklılık göstermemeli.
+
+Ayrışma (Separation/Equalized Odds): YZ çıktısının, gerçek etiket göz önüne alındığında, korunan özelliklerden bağımsız olması. Örnek: Radyoloji YZ'sinin yanlış negatif oranı farklı demografik gruplar için eşit olmalı.
+
+Yeterlilik (Sufficiency/Calibration): Verilen bir tahmin skoru için, gerçek sonucun korunan özellikten bağımsız olması. Örnek: %80 risk skoru her hasta grubu için aynı gerçek riski yansıtmalı.
+
+### Adalet Metriklerinin Uyumsuzluğu
+Önemli bir bulgu: Bağımsızlık, Ayrışma ve Yeterlilik metrikleri dejenere olmayan durumlarda eş anlı sağlanamaz (Barocas ve diğerleri). Sağlık sistemleri tasarımcıları hangi metriğe öncelik vereceklerini etik gerekçelerle açıklamalıdır.
+
+### Sağlık Alanında Önyargı Kaynakları
+Veri edinimi önyargısı: Tarihsel olarak az temsil edilen gruplardan daha az veri toplanması. Etiketleme önyargısı: Farklı klinisyenlerin aynı görüntüyü farklı etiketlemesi. Seçim önyargısı: Belirli hastanelerden veya bölgelerden toplanan verinin genelleştirilememesi.
+
+---
+
+## BELGE 6: Agentic YZ ve Hesap Verebilirlik - Güncel Tartışmalar
+KAYNAK: Chan vd. (2025); Shumway & Hartman (2024)
+KATEGORİ: Akademik/Politika | KAPSAM: Agentic YZ, Sorumluluk
+
+### Agentic YZ Sistemlerinin Sağlık Alanındaki Riskleri
+Agentic YZ sistemleri birden fazla adımı otonom biçimde gerçekleştirebildiğinden, insan müdahalesinin ne zaman ve nasıl devreye gireceği belirsizleşmektedir. Sağlık alanında agentic sistemler: otomatik ilaç siparişi, otonom hasta takip protokolleri ve kendi kendine güncellenen klinik karar kuralları biçiminde ortaya çıkabilmektedir.
+
+### Sorumluluk Zinciri
+Geleneksel tıbbi malpraktis hukuku, tek bir klinisyenin kararını esas almaktadır. Agentic YZ sistemlerinde sorumluluk dağıtık bir yapı kazanmaktadır: YZ geliştirici (ürün sorumluluğu), hastane (dağıtım ve gözetim sorumluluğu), klinisyen (profesyonel sorumluluk) ve kural tasarımcısı (sistem mimarisi sorumluluğu).
+
+### Human-in-the-loop vs Human-on-the-loop
+Human-in-the-loop: Her karar döngüsünde insan onayı zorunlu. Human-on-the-loop: İnsan sistemi izler, müdahale edebilir ancak her kararı onaylamak zorunda değil. Human-out-of-the-loop: Tam otonom sistem, mevcut sağlık düzenlemeleri altında genel olarak kabul görmemektedir.
+
+---
+
+## BELGE 7: GDPR ve Sağlık Verisi - Temel Hükümler
+KAYNAK: Avrupa Parlamentosu ve Konseyi (2016). Genel Veri Koruma Tüzüğü (GDPR, Tüzük 2016/679)
+KATEGORİ: Düzenleyici Belge | KAPSAM: AB, Veri Koruma
+
+### Madde 9 - Özel Kategorideki Kişisel Verilerin İşlenmesi
+Sağlık verisi dahil özel kategorideki kişisel verilerin işlenmesi yasaktır; ancak şu durumlar istisna teşkil eder: ilgili kişinin açık rızası, kamu yararı amaçlı bilimsel araştırma (Madde 89), hayati çıkarların korunması.
+
+### Madde 22 - Otomatik Bireysel Karar Alma
+Kişiler yalnızca otomatik işlemeye, profil oluşturma dahil, dayanan ve kendileri hakkında hukuki sonuç doğuran veya benzer biçimde önemli ölçüde etkileyen kararlara tabi tutulmama hakkına sahiptir. Sağlık kararlarında bu madde kritik önem taşımaktadır.
+
+### Veri Koruma Etki Değerlendirmesi (DPIA)
+Sağlık alanında büyük ölçekli kişisel veri işleme gerçekleştiren YZ sistemleri için DPIA zorunludur. Sistematik risk değerlendirmesi ve azaltma önlemleri belgelenmelidir.
+
+---
+
+## BELGE 8: UNESCO YZ Etiği Tavsiyesi (2021)
+KAYNAK: UNESCO (2021). Recommendation on the Ethics of Artificial Intelligence. Paris: UNESCO.
+URL: https://unesdoc.unesco.org/ark:/48223/pf0000381137
+KATEGORİ: Uluslararası Politika | KAPSAM: Küresel YZ Etiği, İnsan Hakları, Sürdürülebilirlik
+
+### Genel Çerçeve
+UNESCO'nun 193 üye devlet tarafından kabul edilen bu tavsiye kararı, YZ sistemlerinin insan onuru, insan hakları ve temel özgürlüklerle uyumlu biçimde geliştirilmesi ve kullanılması için küresel bir normatif çerçeve sunmaktadır. Sağlık alanındaki YZ uygulamaları bu çerçevenin öncelikli uygulama alanlarından birini oluşturmaktadır.
+
+### Temel Etik İlkeler
+Orantılılık ve Zarar Vermeme: YZ sistemleri yalnızca meşru amaçlar için kullanılmalı, potansiyel zararlar faydalara oranlanmalıdır. Sağlık YZ sistemlerinde bu ilke, tanı hatalarının ve algoritmik önyargının hasta zararına yol açmamasını zorunlu kılar.
+
+Güvenlik ve Emniyet: YZ sistemleri istenmeyen zararlara karşı güvenli olmalıdır. Sağlık alanında bu ilke, fail-safe mekanizmalarını ve adversarial saldırılara karşı dayanıklılığı kapsamaktadır.
+
+Adalet ve Ayrımcılık Yapmama: YZ sistemleri ayrımcılık yapmamalı, eşit muameleyi desteklemelidir. Sağlık hizmetlerine erişimde algoritmik eşitsizlik kabul edilemez.
+
+Sürdürülebilirlik: YZ gelişimi çevresel sürdürülebilirlikle uyumlu olmalıdır. Büyük sağlık YZ modellerinin karbon ayak izi değerlendirilmelidir.
+
+Mahremiyet ve Veri Koruma: Bireysel mahremiyet ve kişisel verilerin korunması güvence altına alınmalıdır. Sağlık verileri en yüksek koruma düzeyini hak eder.
+
+İnsan Denetimi ve Özerklik: İnsan denetimi korunmalı, YZ özerk karar alma yetkisi sınırlandırılmalıdır. Klinik kararlarda nihai yetki insan sağlık profesyonelinde kalmalıdır.
+
+Şeffaflık ve Açıklanabilirlik: YZ sistemleri şeffaf ve açıklanabilir olmalıdır. Hastalara ve klinisyenlere YZ kararlarının gerekçesi anlaşılır biçimde sunulmalıdır.
+
+Hesap Verebilirlik: YZ sistemlerinin sonuçlarından kim/kimler sorumlu olduğu netleştirilmelidir. Sorumluluk zinciri geliştirici, dağıtıcı ve kullanıcı düzeyinde tanımlanmalıdır.
+
+### Sağlık Alanına Özgü Vurgular
+Sağlık YZ sistemleri hasta mahremiyetini koruyacak biçimde tasarlanmalıdır. Tanı ve tedavi kararlarında insan denetimi zorunludur. YZ destekli sağlık hizmetlerine eşit erişim sağlanmalıdır. Sağlık verilerinin ikincil kullanımı açık rızaya dayandırılmalıdır. Düşük gelirli ülkelerin sağlık YZ sistemlerine adil erişimi desteklenmelidir.
+
+### Türkiye Bağlamı
+Türkiye UNESCO üyesi olarak bu tavsiye kararını desteklemiştir. Ancak tavsiye kararının bağlayıcı niteliği bulunmamaktadır. KVKK ve geliştirilecek ulusal YZ mevzuatının UNESCO ilkeleriyle uyumlu olması önerilmektedir.
+
+İlgili Maddeler: UNESCO Tavsiyesi Madde 17 (Orantılılık ve Zarar Vermeme), Madde 24 (Mahremiyet ve Veri Koruma), Madde 28 (Hesap Verebilirlik ve Denetim)
